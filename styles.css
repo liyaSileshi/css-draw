@@ -1,0 +1,109 @@
+body{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body, html {
+    height: 100%;
+}
+.grid-container {
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px; */
+    grid-template-columns: repeat(4, 120px);
+    grid-gap: 10px;
+    left: 100px;
+}
+
+/* red square */
+.redsq {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+/* red circle */
+.red-circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius:50%;
+}
+
+/* red square black border */
+.redsq-border {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid black;
+}
+
+/* red square black border (1 side arc)  */
+.redsq-side-border {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid black;
+    border-radius: 0 0 0 50%;
+}
+
+/* green leaf */
+.green-leaf {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: solid black;
+    border-radius: 0 50% 50% 50%;
+}
+
+/* lemon */
+.lemon {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid black;
+    border-radius: 0 50% 0 50%;
+}
+
+/* minus */
+.minus-container {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.minus {
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 15px;
+}
+
+/* equal sign */
+.equal-container {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    background-color: blue;
+}
+
+.equal-1 {
+    width: 60px;
+    height: 20px;
+    background-color: yellow;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.equal-2 {
+    width: 60px;
+    height: 20px;
+    background-color: yellow;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
