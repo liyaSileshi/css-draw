@@ -187,7 +187,6 @@ body, html {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .arrow-container > div:first-child {
@@ -218,3 +217,108 @@ body, html {
     left: 10px;
     transform: rotate(225deg)
 }
+
+/* red eye face */
+.red-eye {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    background-color: rgb(150, 171, 197);
+}
+
+.red-eye > div:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+.red-eye > div:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 55px;
+}
+
+.red-eye > div:nth-child(3) {
+    width: 50px;
+    height: 10px;
+    border: solid black;
+    background-color: red;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 22px;
+}
+
+/* vampire */
+.vampire {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    border-radius: 20px 20px 40px 40px;
+    justify-content: center;
+    align-items: center;
+}
+/* left eye */
+.vampire > div:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+    top: 27px;
+    left: 15px;
+}
+/* left eye-ball */
+.vampire > div:nth-child(2) {
+    width: 1px;
+    height: 1px;
+    background-color: black;
+    border: solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 24px;
+    top: 17px;
+}
+/* right eye */
+.vampire > div:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-radius: 50% 0 50% 50%;
+    position: relative;
+    left:60px;
+    bottom:6px;
+}
+/* right eyeball */
+.vampire > div:nth-child(4) {
+    width: 1px;
+    height: 1px;
+    background-color: black;
+    border: solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    bottom: 16px;
+}
+
+/* fangs */
+.vampire > div:nth-child(5) {
+    width: 35px;
+    height: 5px;
+    border-top: solid black 3px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-bottom: solid black transparent;
+    position: absolute;
+      transform: translate(25px, 10px);
+}
+
