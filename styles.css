@@ -178,3 +178,43 @@ body, html {
     border: solid black;
     border-radius: 50%;
 }
+
+/* arrow */
+.arrow-container {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.arrow-container > div:first-child {
+    background-color: black;
+    width: 5px;
+    height: 40px;
+    position: relative;
+    left: 19px;
+    top:15px;
+    transform: rotate(-45deg)
+}
+
+.arrow-container > div:nth-child(2) {
+    background-color: black;
+    width: 5px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    transform: rotate(90deg)
+}
+
+.arrow-container > div:last-child {
+    background-color: black;
+    width: 5px;
+    height: 45px;
+    position: relative;
+    top: 42px;
+    left: 10px;
+    transform: rotate(225deg)
+}
